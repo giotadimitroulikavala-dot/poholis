@@ -1,0 +1,11 @@
+app = "poholis"
+primary_region = "fra"
+
+[build]
+  image = "docker"
+
+[env]
+  PORT = "8080"
+
+[experimental]
+  allowed_public_ports = [8080]
